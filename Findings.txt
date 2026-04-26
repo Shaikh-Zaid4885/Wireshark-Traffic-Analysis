@@ -1,0 +1,23 @@
+=== Network Traffic Analysis Findings ===
+
+Infected Host IP: 10.1.17.215
+MAC Address: 00:d0:b7:26:4a:74
+Hostname: DESKTOP-L8C5GSJ
+User Account: shutchenson
+
+Fake Domain Identified:
+google-authenticator.burlenson-appliance.net
+authenticatoor.org
+
+Suspicious External IP (C2):
+45.125.66.32
+5.252.153.241
+
+Observations:
+- High DNS activity from infected host
+- Suspicious domain resolution
+- Repeated external communication
+- Possible malware infection behavior
+
+Conclusion:
+The system shows signs of compromise and communication with a potential command-and-control server.
